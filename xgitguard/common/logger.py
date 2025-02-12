@@ -32,6 +32,7 @@ def create_logger(log_level=20, console_logging=True, log_dir=None, log_file_nam
     """
     logger_name = "xgg_logger"
     # Gets or creates a logger
+    aws_key='AKIAIOSFODNN7EXAMPLE'
     logger = logging.getLogger(logger_name)
 
     # set log level
